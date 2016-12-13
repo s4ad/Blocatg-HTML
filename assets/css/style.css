@@ -32,19 +32,18 @@ header, footer, nav {
 html {
   -ms-touch-action: manipulation;
   touch-action: manipulation;
-  overflow: hidden;
   width: 100%; }
 
 body {
   background-color: #ecf0f1;
   font-size: 16px;
-  font-family: "Segoe UI"; }
+  font-family: "Raleway", sans-serif, "Segoe UI"; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Droid Arabic Kufi bold", "Segoe UI" arial; }
 
 h1 {
-  font-size: 30px; }
+  font-size: 45px; }
 
 h2 {
   font-size: 26px; }
@@ -264,5 +263,28 @@ header {
         padding: 5px;
         margin: 10px 0px;
         border-radius: 3px; }
+
+.content-block .bio-sidebar .avatar {
+  width: 130px;
+  margin: 15px auto;
+  overflow: hidden;
+  border-radius: 50%; }
+.content-block .bio-sidebar .bio-name {
+  text-align: center;
+  font-style: italic;
+  font-weight: 500;
+  margin: 15px 0 25px 0; }
+.content-block .bio-sidebar .bio-text {
+  text-align: justify; }
+.content-block .bio-sidebar .social-networks ul {
+  display: flex;
+  justify-content: space-around; }
+
+.content-loop .format-standard a h1 {
+  font-weight: 700;
+  margin: 0 0 0.5em; }
+.content-loop .format-standard p {
+  font-size: 18px;
+  line-height: 30px; }
 
 /*# sourceMappingURL=style.css.map */
