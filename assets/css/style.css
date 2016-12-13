@@ -285,6 +285,11 @@ header {
   margin: 0 0 0.5em; }
 .content-loop .format-standard p {
   font-size: 18px;
-  line-height: 30px; }
+  line-height: 30px;
+  margin-bottom: 10px; }
+.content-loop .format-standard .read-more {
+  text-align: right; }
+  .content-loop .format-standard .read-more a {
+    color: #c0392b; }
 
 /*# sourceMappingURL=style.css.map */
