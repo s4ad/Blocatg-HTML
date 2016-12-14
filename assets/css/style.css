@@ -379,4 +379,14 @@ header {
     .content-loop .pagination .next-posts {
       text-align: right; }
 
+.footer {
+  padding: 20px 0;
+  font-style: italic; }
+  .footer .copyright {
+    text-align: right; }
+    .footer .copyright a {
+      text-decoration: underline dotted #c0392b !important; }
+  .footer .powerdwp a {
+    text-decoration: underline dotted #c0392b !important; }
+
 /*# sourceMappingURL=style.css.map */
