@@ -195,6 +195,7 @@ header {
     header .social-networks .toggle-social i {
       font-size: 30px; }
     header .social-networks .hidden-droplist {
+      display: none;
       width: 200px;
       padding: 15px;
       margin-top: 15px;
@@ -240,6 +241,7 @@ header {
     header .search-bar .toggle-search i {
       font-size: 30px; }
     header .search-bar .drop-search {
+      display: none;
       width: 250px;
       padding: 0px 13px;
       margin-top: 15px;

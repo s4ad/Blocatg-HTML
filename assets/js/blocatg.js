@@ -1,3 +1,11 @@
+$(document).ready(function(){
+    $(".toggle-social").click(function(){
+        $(".hidden-droplist").toggle("fast");
+    });
+    $(".toggle-search").click(function(){
+        $(".drop-search").toggle("fast");
+    });
+});
 $('.owl-carousel').owlCarousel({
     //rtl:true,
     loop:true,
