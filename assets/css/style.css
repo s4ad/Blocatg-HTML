@@ -333,5 +333,40 @@ header {
           bottom: 0;
           left: 0;
           background: rgba(0, 0, 0, 0.6); }
+.content-loop .format-image {
+  position: relative; }
+  .content-loop .format-image .title {
+    position: absolute;
+    top: 0;
+    z-index: 2; }
+    .content-loop .format-image .title a {
+      color: #ecf0f1; }
+      .content-loop .format-image .title a h1 {
+        display: inline;
+        background: rgba(0, 0, 0, 0.7);
+        line-height: 1.27; }
+.content-loop .format-quote {
+  position: relative; }
+  .content-loop .format-quote .quote-header i {
+    font-size: 100px;
+    float: left;
+    margin-left: 40%; }
+  .content-loop .format-quote .quote-header h3 {
+    float: left;
+    margin-left: 20px;
+    line-height: 85px;
+    font-size: 20px;
+    color: #636465;
+    font-weight: 400; }
+  .content-loop .format-quote .the-quote {
+    text-align: center;
+    width: 100%;
+    color: #444;
+    font-size: 20px;
+    font-style: italic;
+    margin: 10px 0; }
+    .content-loop .format-quote .the-quote i {
+      font-size: 16px;
+      color: #7f8d8c; }
 
 /*# sourceMappingURL=style.css.map */
