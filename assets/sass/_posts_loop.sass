@@ -1,14 +1,58 @@
 .content-loop
-    .format-standard
+    article
+        margin-bottom: 60px
+
+    a
+        h1
+            font-weight: 700
+            margin: 0 0 0.5em
+    p
+        font-size: 18px
+        line-height: 30px
+        margin-bottom: 10px
+    .read-more
+        text-align: right
         a
-            h1
-                font-weight: 700
-                margin: 0 0 0.5em
-        p
-            font-size: 18px
-            line-height: 30px
-            margin-bottom: 10px
-        .read-more
-            text-align: right
+            color: $more_link_color
+            &:hover
+                padding-right: 50px
+                color: $more_link_hover_color
+    .format-gallery
+        position: relative
+        .title
+            position: absolute
+            top: 0
+            z-index: 2
             a
-                color: $more_link_color
+                color: $h_lighter_color
+                h1
+                    display: inline
+                    background: rgba(0,0,0,0.7)
+                    line-height: 1.27
+        .owl-carousel
+            height: 390px
+            overflow: hidden
+            position: relative
+            .owl-controls
+                position: absolute
+                bottom: 0
+                right:  0
+                .owl-nav
+                    .owl-prev
+                        float: left
+                        padding: 5px 15px
+                        background: rgba(192, 57, 43, 0.6)
+                        font-size: 28px
+                        color: rgba(255, 255, 255, 0.8)
+                    .owl-next
+                        @extend .owl-prev
+                        position: relative
+                        &:before
+                            content: " "
+                            width: 1px
+                            height: 100%
+                            position: absolute
+                            top: 0
+                            bottom: 0
+                            left: 0
+                            background: rgba(0, 0, 0, 0.6)

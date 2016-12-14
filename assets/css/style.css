@@ -85,10 +85,10 @@ img {
 
 a {
   color: #444;
-  text-decoration: none !important; }
-
-a:hover {
-  color: #000; }
+  text-decoration: none !important;
+  transition: all 0.5s ease-in; }
+  a:hover {
+    color: #000; }
 
 .clear {
   clear: both; }
@@ -280,16 +280,58 @@ header {
   display: flex;
   justify-content: space-around; }
 
-.content-loop .format-standard a h1 {
+.content-loop article {
+  margin-bottom: 60px; }
+.content-loop a h1 {
   font-weight: 700;
   margin: 0 0 0.5em; }
-.content-loop .format-standard p {
+.content-loop p {
   font-size: 18px;
   line-height: 30px;
   margin-bottom: 10px; }
-.content-loop .format-standard .read-more {
+.content-loop .read-more {
   text-align: right; }
-  .content-loop .format-standard .read-more a {
+  .content-loop .read-more a {
     color: #c0392b; }
+    .content-loop .read-more a:hover {
+      padding-right: 50px;
+      color: #a0191b; }
+.content-loop .format-gallery {
+  position: relative; }
+  .content-loop .format-gallery .title {
+    position: absolute;
+    top: 0;
+    z-index: 2; }
+    .content-loop .format-gallery .title a {
+      color: #ecf0f1; }
+      .content-loop .format-gallery .title a h1 {
+        display: inline;
+        background: rgba(0, 0, 0, 0.7);
+        line-height: 1.27; }
+  .content-loop .format-gallery .owl-carousel {
+    height: 390px;
+    overflow: hidden;
+    position: relative; }
+    .content-loop .format-gallery .owl-carousel .owl-controls {
+      position: absolute;
+      bottom: 0;
+      right: 0; }
+      .content-loop .format-gallery .owl-carousel .owl-controls .owl-nav .owl-prev, .content-loop .format-gallery .owl-carousel .owl-controls .owl-nav .owl-next {
+        float: left;
+        padding: 5px 15px;
+        background: rgba(192, 57, 43, 0.6);
+        font-size: 28px;
+        color: rgba(255, 255, 255, 0.8); }
+      .content-loop .format-gallery .owl-carousel .owl-controls .owl-nav .owl-next {
+        position: relative; }
+        .content-loop .format-gallery .owl-carousel .owl-controls .owl-nav .owl-next:before {
+          content: " ";
+          width: 1px;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          background: rgba(0, 0, 0, 0.6); }
 
 /*# sourceMappingURL=style.css.map */
