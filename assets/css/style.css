@@ -280,93 +280,103 @@ header {
   display: flex;
   justify-content: space-around; }
 
-.content-loop article {
-  margin-bottom: 60px; }
-.content-loop a h1 {
-  font-weight: 700;
-  margin: 0 0 0.5em; }
-.content-loop p {
-  font-size: 18px;
-  line-height: 30px;
-  margin-bottom: 10px; }
-.content-loop .read-more {
-  text-align: right; }
-  .content-loop .read-more a {
-    color: #c0392b; }
-    .content-loop .read-more a:hover {
-      padding-right: 50px;
-      color: #a0191b; }
-.content-loop .format-gallery {
-  position: relative; }
-  .content-loop .format-gallery .title {
-    position: absolute;
-    top: 0;
-    z-index: 2; }
-    .content-loop .format-gallery .title a {
-      color: #ecf0f1; }
-      .content-loop .format-gallery .title a h1 {
-        display: inline;
-        background: rgba(0, 0, 0, 0.7);
-        line-height: 1.27; }
-  .content-loop .format-gallery .owl-carousel {
-    height: 390px;
-    overflow: hidden;
+.content-loop {
+  margin-bottom: 20px; }
+  .content-loop article {
+    margin-bottom: 60px; }
+  .content-loop a h1 {
+    font-weight: 700;
+    margin: 0 0 0.5em; }
+  .content-loop p {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 10px; }
+  .content-loop .read-more {
+    text-align: right; }
+    .content-loop .read-more a {
+      color: #c0392b; }
+      .content-loop .read-more a:hover {
+        padding-right: 50px;
+        color: #a0191b; }
+  .content-loop .format-gallery {
     position: relative; }
-    .content-loop .format-gallery .owl-carousel .owl-controls {
+    .content-loop .format-gallery .title {
       position: absolute;
-      bottom: 0;
-      right: 0; }
-      .content-loop .format-gallery .owl-carousel .owl-controls .owl-nav .owl-prev, .content-loop .format-gallery .owl-carousel .owl-controls .owl-nav .owl-next {
-        float: left;
-        padding: 5px 15px;
-        background: rgba(192, 57, 43, 0.6);
-        font-size: 28px;
-        color: rgba(255, 255, 255, 0.8); }
-      .content-loop .format-gallery .owl-carousel .owl-controls .owl-nav .owl-next {
-        position: relative; }
-        .content-loop .format-gallery .owl-carousel .owl-controls .owl-nav .owl-next:before {
-          content: " ";
-          width: 1px;
-          height: 100%;
-          position: absolute;
-          top: 0;
-          bottom: 0;
-          left: 0;
-          background: rgba(0, 0, 0, 0.6); }
-.content-loop .format-image {
-  position: relative; }
-  .content-loop .format-image .title {
-    position: absolute;
-    top: 0;
-    z-index: 2; }
-    .content-loop .format-image .title a {
-      color: #ecf0f1; }
-      .content-loop .format-image .title a h1 {
-        display: inline;
-        background: rgba(0, 0, 0, 0.7);
-        line-height: 1.27; }
-.content-loop .format-quote {
-  position: relative; }
-  .content-loop .format-quote .quote-header i {
-    font-size: 100px;
-    float: left;
-    margin-left: 40%; }
-  .content-loop .format-quote .quote-header h3 {
-    float: left;
-    margin-left: 20px;
-    line-height: 85px;
-    font-size: 20px;
-    color: #636465;
-    font-weight: 400; }
-  .content-loop .format-quote .the-quote {
-    text-align: center;
-    width: 100%;
-    color: #444;
-    font-size: 20px;
-    font-style: italic;
-    margin: 10px 0; }
-    .content-loop .format-quote .the-quote i {
-      font-size: 16px;
-      color: #7f8d8c; }
+      top: 0;
+      z-index: 2; }
+      .content-loop .format-gallery .title a {
+        color: #ecf0f1; }
+        .content-loop .format-gallery .title a h1 {
+          display: inline;
+          background: rgba(0, 0, 0, 0.7);
+          line-height: 1.27; }
+    .content-loop .format-gallery .owl-carousel {
+      height: 390px;
+      overflow: hidden;
+      position: relative; }
+      .content-loop .format-gallery .owl-carousel .owl-controls {
+        position: absolute;
+        bottom: 0;
+        right: 0; }
+        .content-loop .format-gallery .owl-carousel .owl-controls .owl-nav .owl-prev, .content-loop .format-gallery .owl-carousel .owl-controls .owl-nav .owl-next {
+          float: left;
+          padding: 5px 15px;
+          background: rgba(192, 57, 43, 0.6);
+          font-size: 28px;
+          color: rgba(255, 255, 255, 0.8); }
+        .content-loop .format-gallery .owl-carousel .owl-controls .owl-nav .owl-next {
+          position: relative; }
+          .content-loop .format-gallery .owl-carousel .owl-controls .owl-nav .owl-next:before {
+            content: " ";
+            width: 1px;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            background: rgba(0, 0, 0, 0.6); }
+  .content-loop .format-image {
+    position: relative; }
+    .content-loop .format-image .title {
+      position: absolute;
+      top: 0;
+      z-index: 2; }
+      .content-loop .format-image .title a {
+        color: #ecf0f1; }
+        .content-loop .format-image .title a h1 {
+          display: inline;
+          background: rgba(0, 0, 0, 0.7);
+          line-height: 1.27; }
+  .content-loop .format-quote {
+    position: relative; }
+    .content-loop .format-quote .quote-header i {
+      font-size: 100px;
+      float: left;
+      margin-left: 40%; }
+    .content-loop .format-quote .quote-header h3 {
+      float: left;
+      margin-left: 20px;
+      line-height: 85px;
+      font-size: 20px;
+      color: #636465;
+      font-weight: 400; }
+    .content-loop .format-quote .the-quote {
+      text-align: center;
+      width: 100%;
+      color: #444;
+      font-size: 20px;
+      font-style: italic;
+      margin: 10px 0; }
+      .content-loop .format-quote .the-quote i {
+        font-size: 16px;
+        color: #7f8d8c; }
+  .content-loop .format-audio .soundcloud-embed {
+    margin: 15px 0; }
+  .content-loop .pagination {
+    font-size: 22px; }
+    .content-loop .pagination .prev-posts span, .content-loop .pagination .next-posts span {
+      margin: 6px; }
+    .content-loop .pagination .next-posts {
+      text-align: right; }
 
 /*# sourceMappingURL=style.css.map */
