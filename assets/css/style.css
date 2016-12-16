@@ -266,6 +266,12 @@ header {
         margin: 10px 0px;
         border-radius: 3px; }
 
+.main-menu ul {
+  margin: 30px 0;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-around; }
+
 .content-block .bio-sidebar .avatar {
   width: 130px;
   margin: 15px auto;
