@@ -397,4 +397,84 @@ header {
   .footer .powerdwp a {
     text-decoration: underline dotted #c0392b !important; }
 
+.content-loop .post-meta {
+  margin: 15px auto;
+  position: relative; }
+  .content-loop .post-meta .author-ava {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left; }
+  .content-loop .post-meta .author-name {
+    line-height: 60px;
+    margin-left: 20px;
+    text-transform: uppercase; }
+  .content-loop .post-meta ul {
+    float: right; }
+    .content-loop .post-meta ul li {
+      float: right;
+      margin-left: 20px;
+      line-height: 60px; }
+.content-loop .content ul {
+  list-style: disc; }
+
+#comments {
+  margin: 30px auto; }
+  #comments .comments-title {
+    padding-left: 10px;
+    margin: 30px auto; }
+  #comments .comment-list li.comment .comment-meta .comment-author {
+    position: relative; }
+    #comments .comment-list li.comment .comment-meta .comment-author img {
+      height: 50px;
+      left: -65px;
+      position: absolute;
+      width: 50px; }
+  #comments .comment-list li.comment .comment-meta .comment-metadata {
+    color: #767676;
+    font-size: 10px;
+    font-size: 0.625rem;
+    font-weight: 800;
+    letter-spacing: 0.1818em;
+    text-transform: uppercase; }
+  #comments .comment-list .children {
+    padding-left: 2em; }
+    #comments .comment-list .children li.comment .comment-meta .comment-author {
+      position: relative; }
+      #comments .comment-list .children li.comment .comment-meta .comment-author img {
+        height: 30px;
+        left: -45px;
+        position: absolute;
+        width: 30px;
+        border: 1px solid #333;
+        padding: 2px; }
+    #comments .comment-list .children li.comment .comment-meta .comment-metadata {
+      color: #767676;
+      font-size: 10px;
+      font-size: 0.625rem;
+      font-weight: 800;
+      letter-spacing: 0.1818em;
+      text-transform: uppercase; }
+    #comments .comment-list .children .children {
+      padding-left: 2em; }
+  #comments .comment-respond label, #comments .comment-respond textarea, #comments .comment-respond input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px; }
+  #comments .comment-respond textarea, #comments .comment-respond input {
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    padding: 0.7em; }
+  #comments .comment-respond .form-submit {
+    text-align: right; }
+    #comments .comment-respond .form-submit input {
+      background-color: #222;
+      border: none;
+      border-radius: 2px;
+      color: #fff;
+      display: inline-block;
+      padding: 1em 2em;
+      width: auto; }
+
 /*# sourceMappingURL=style.css.map */
